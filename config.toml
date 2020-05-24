@@ -1,0 +1,38 @@
+baseurl = "https://anandkanishka.com"
+languageCode = "en-us"
+title = "Kanishka Anand"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/anandkanishka/"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/manukanishka"
+
+[params]
+    mainSections = ["post"]
+
+    description = ""
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "dp.jpg"
+    width = 50
+    height = 50
+    alt = "gyaan & bakchodi"
+
+    [params.icon]
+    url = "dp.jpg"
