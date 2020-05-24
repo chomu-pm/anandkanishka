@@ -25,14 +25,12 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
 
     description = ""
 
-    # path to the favicon, under "static"
-    favicon = "favicon.ico"
 
     [params.logo]
-    url = "logo_1.jpg"
+    url = "logo_2.jpg"
     width = 50
     height = 50
     alt = "observe & share"
 
     [params.icon]
-    url = "logo_1.jpg"
+    url = "logo_2.jpg"
