@@ -12,7 +12,8 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "/about"
+
 [[menu.main]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/anandkanishka/"
