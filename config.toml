@@ -7,7 +7,7 @@ disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
 
 [permalinks]
-    post = "/:year/:month/:day/:title/"
+    post = "/:title/"
     page = "/:title/"
 
 [[menu.main]]
@@ -29,10 +29,10 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
     favicon = "favicon.ico"
 
     [params.logo]
-    url = "dp.jpg"
+    url = "logo_1.jpg"
     width = 50
     height = 50
-    alt = "observation & gyaan"
+    alt = "observe & share"
 
     [params.icon]
-    url = "dp.jpg"
+    url = "logo_1.jpg"
